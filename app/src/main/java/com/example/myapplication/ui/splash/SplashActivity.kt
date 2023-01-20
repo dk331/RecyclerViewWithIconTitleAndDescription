@@ -16,6 +16,7 @@ class SplashActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash)
 
         val imageView: ImageView = findViewById(R.id.image)
+
         val drawableResourceId =
             this.resources.getIdentifier("jerryadney", "drawable", this.packageName)
 
